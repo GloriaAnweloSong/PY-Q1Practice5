@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1 Practice5</title>
+
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.3.1/core.css" />
+    <script type="module" src="https://pyscript.net/releases/2025.3.1/core.js"></script>
+
+</head>
+<body>
+    
+    <div>a
+        <form>
+
+            <label for="word">Type a word:</label>
+            <br>
+            <input type="text" id="category" name="category" placeholder="" required>
+            <br>
+
+            <button type="button" py-click="display_char" id="btn">Generate</button>
+
+
+            <label for="options">Category</label>
+            <br>
+            <select id="Category" required>
+                <option>Choose a Category</option>
+                <option> Kris Tea</option>
+                <option> Susie Tea</option>
+                <option> Ralsei Tea</option>
+            </select>
+            <br>
+
+        </form>
+    </div>
+
+    <div id="output1">
+        <script type="py" src="main.py"></script>
+
+    </div>
+
+
+
+</body>
+</html>
